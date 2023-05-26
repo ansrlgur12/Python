@@ -25,7 +25,7 @@
 # print(score)
 
 # 시간을 입력 받아 이쁘게 출력
-hour, min, sec = map(int, input("시 :분 :초 : ").split(":"))
+hour, min, sec = map(int, input("?시:?분:?초 : ").split(":"))
 if hour > 12 : 
     hour -= 12
     print(f"오후 {hour:02}시 {min:02}분 {sec:02}초")
