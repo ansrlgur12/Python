@@ -114,7 +114,7 @@ print(f"홀수 : {odd}")
 print()
 print("-"*25+"람다 활용"+"-"*25)
 number = list(map(int, input("입력 : ").split()))
-odd = list(filter(lambda x : x % 2 == 1, number))
+odd = list(filter(lambda x : x % 2 == 1, number)) # (x) => x % 2 == 1
 even = list(filter(lambda x : x % 2 == 0, number))
 print(f"짝수 : {even}")
 print(f"홀수 : {odd}")
