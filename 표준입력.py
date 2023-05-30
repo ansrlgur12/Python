@@ -21,7 +21,7 @@
 # str1, str2 = input("이름과 주소 입력 : ").split()
 # print(f"첫번째 문자열 : {str1}, 두번째 문자열 : {str2}")
 
-# score = list(map(int, input("과목 제한 없음 : ").split()))
+# score = list((int, input("과목 제한 없음 : ").split()))
 # print(score)
 
 # 시간을 입력 받아 이쁘게 출력
