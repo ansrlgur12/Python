@@ -38,3 +38,4 @@ lg_tv.set_channel(1)
 
 lg_tv.get_volume()
 lg_tv.view_tv()
+lg_tv.set_on(False)

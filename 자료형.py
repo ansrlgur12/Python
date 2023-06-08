@@ -29,3 +29,4 @@ x, y, z = 0, None, ""
 print(bool(x))
 print(bool(y))
 print(bool(z))
+print("0608")
