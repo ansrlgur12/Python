@@ -11,19 +11,19 @@ class FiveG(NetworkAdaptor) :
     def __init__(self, company) :
         self.company = company
     def connect(self):
-        print(f"{self.company} 5G로 연결하였습니다.")
+        print(f"{self.company} 5G로 연결.")
 
 class WiFi(NetworkAdaptor) :
     def __init__(self, company) :
         self.company = company
     def connect(self):
-        print(f"{self.company} Wi-Fi로 연결하였습니다.")
+        print(f"{self.company} Wi-Fi로 연결.")
 
 class LTE(NetworkAdaptor) :
     def __init__(self, company) :
         self.company = company
     def connect(self):
-        print(f"{self.company} LTE로 연결하였습니다.")
+        print(f"{self.company} LTE로 연결.")
 
 net = input("연결할 네트워크를 선택하세요 [1] 5G  [2] Wi-Fi  [3] LTE : ")
 if net == "1" :
